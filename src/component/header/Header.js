@@ -14,14 +14,14 @@ function Header() {
           <i className="fa-solid fa-user fa-xl" />
           <button className="logout-button">LOG OUT</button>
         </div>
-        <div className="currency">
+        {/* <div className="currency">
           <label>currency</label>
-          <select name="currency">
+          {/* <select name="currency">
             <option value="USD">USD $</option>
             <option value="JOD">JOD</option>
             <option value="GBB">GBB</option>
-          </select>
-        </div>
+          </select> */}
+        {/* </div> */}
       </div>
       <hr style={{ width: "90%", margin: "auto" }} />
       <div className="bottom-header">
@@ -32,10 +32,10 @@ function Header() {
             <a href="#">About Us</a>
             <a href="#">Products</a>
           </div>
-          <div className="search">
+          {/* <div className="search">
             <input type="text" placeholder="Search" />
             <button>Search</button>
-          </div>
+          </div> */}
           <div className="cart">
             <a href="#">Cart</a>
             <i className="fa-solid fa-cart-shopping" />
