@@ -1,0 +1,18 @@
+.main-footer {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.left-footer {
+  padding-left: 40px;
+  width: 70%;
+}
+.right-footer {
+  width: 30%;
+}
+.footer-icons {
+  display: flex;
+  gap: 25px;
+}

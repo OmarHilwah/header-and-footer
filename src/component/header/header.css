@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.main-header {
+  padding-top: 10px;
+  background-color: rgba(247, 247, 247, 1);
+  color: rgba(164, 156, 156, 1);
+}
+
+.header-top {
+  align-items: center;
+  display: flex;
+  width: 90%;
+  margin: 0.5rem auto;
+  gap: 25px;
+  justify-content: flex-end;
+}
+
+.social-icon {
+  display: flex;
+  gap: 15px;
+  margin-right: 10rem;
+}
+
+.bottom-header {
+  margin: 0.5rem auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.currency {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.logo {
+  width: 50%;
+}
+.second-header-bootom {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button,
+select {
+  background-color: rgba(242, 227, 204, 1);
+  padding: 10px 20px;
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.fa-pinterest {
+  color: red;
+}
+
+.fa-twitter {
+  color: skyblue;
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
